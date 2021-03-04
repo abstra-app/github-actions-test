@@ -6,4 +6,4 @@ jobs:
     steps:
     - run: |
         echo "Hello ${{ github.event.client_payload.name }}!"
-        echo "- em ${{ github.event.client_payload.home }}!"
+        echo "- em ${{ github.event.client_payload.email }}!"
